@@ -1,0 +1,373 @@
+{
+  "_organizations": [
+    {
+      "OrganizationURL": "https://org6fa3eff6.api.crm.dynamics.com/xrmservices/2011/organization.svc",
+      "HomeRealmUri": "",
+      "OrganizationVersion": "9.2.21013.152",
+      "MFAAppId": "51f81489-12ee-4a9e-aaae-a2591f45987d",
+      "MFAReturnUrl": "app://58145B91-0C36-4500-8554-080854F2AC97",
+      "ConnectionType": 1,
+      "ConnectionProtocol": 3072,
+      "_projects": [
+        {
+          "Name": "mycompany.bu.process.plugin.Plugins.csproj",
+          "NameWithoutExtension": "mycompany.bu.process.plugin.Plugins",
+          "ProjectPreferences": {
+            "JavaScriptsPath": "\\Web",
+            "TypeScriptsPath": "\\Web",
+            "ImagesPath": "\\Web",
+            "WebFilesPath": "\\Web",
+            "CSSPath": "\\Web",
+            "XslPath": "\\Web",
+            "XmlPath": "\\Web",
+            "SilverlightPath": "\\Xap",
+            "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+            "SitemapPath": "\\Sitemap",
+            "ChartsPath": "\\Charts",
+            "ViewPath": "\\Views",
+            "ProxyClassesPath": "\\ProxyClasses",
+            "ProxyEnumClassesPath": "\\Enums",
+            "EmailTemplatesPath": "\\EmailTemplates",
+            "ProcessesPath": "\\Processes",
+            "EntityMetadataPath": "\\EntityMetadata",
+            "PluginConfigurationsPath": "\\PluginConfigurations",
+            "BaseProxyClassRelativePath": "\\",
+            "CustomAssemblyConfigPath": "\\AssemblyConfig",
+            "JavaScriptMinification": 1,
+            "CSSMinification": 1,
+            "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+            "ResourcesPath": "\\Web",
+            "ServiceContextName": "CrmServiceContext",
+            "EnumsFileName": "OptionSetEnums",
+            "BaseProxyClassFileName": "BaseProxyClass",
+            "AutoRefreshProxyClassesOnMetadataChanges": true,
+            "PluginPath": "",
+            "WorkflowPath": "",
+            "ProxyClassGenerationOptions": 1,
+            "ProxyClassGenerationMethod": 1,
+            "ProxyClassNamingConvention": 1,
+            "ProxyClassNamingPattern": "{0}",
+            "UseStronglyTypeNameForProxyClassRelatedEntities": true
+          },
+          "_files": [
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.BasePluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 1,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "BasePlugin.cs",
+              "Name": "BasePlugin.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyBaseClass, SS.XrmToolkit.Common",
+              "Version": "4.0.0.0",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\BaseProxyClass.cs",
+              "Name": "BaseProxyClass.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_approvalstatus",
+              "IsGlobal": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eApprovalStatus.cs",
+              "Name": "eApprovalStatus.cs",
+              "CrmId": "04cfc756-ed77-eb11-a812-000d3a1c6099"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_leavebalance_statecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "new_leavebalance",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eLeaveBalance_Status.cs",
+              "Name": "eLeaveBalance_Status.cs",
+              "CrmId": "ac9bcdc2-da78-eb11-a812-000d3a9d0055"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_leavebalance_statuscode",
+              "IsGlobal": false,
+              "EntityLogicalName": "new_leavebalance",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eLeaveBalance_StatusReason.cs",
+              "Name": "eLeaveBalance_StatusReason.cs",
+              "CrmId": "b69bcdc2-da78-eb11-a812-000d3a9d0055"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_leaverequests_new_overallstatus",
+              "IsGlobal": false,
+              "EntityLogicalName": "new_leaverequests",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eLeaveRequests_LeaveStatus.cs",
+              "Name": "eLeaveRequests_LeaveStatus.cs",
+              "CrmId": "976eb31f-9678-eb11-a812-000d3a1c6099"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_leaverequests_statecode",
+              "IsGlobal": false,
+              "EntityLogicalName": "new_leaverequests",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eLeaveRequests_Status.cs",
+              "Name": "eLeaveRequests_Status.cs",
+              "CrmId": "47eef945-4377-eb11-a812-000d3a1c6099"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_leaverequests_statuscode",
+              "IsGlobal": false,
+              "EntityLogicalName": "new_leaverequests",
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eLeaveRequests_StatusReason.cs",
+              "Name": "eLeaveRequests_StatusReason.cs",
+              "CrmId": "51eef945-4377-eb11-a812-000d3a1c6099"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.EnumProxyFile, SS.XrmToolkit.Common",
+              "OptionSetName": "new_leavetype",
+              "IsGlobal": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\Enums\\eLeaveType.cs",
+              "Name": "eLeaveType.cs",
+              "CrmId": "74c230de-4477-eb11-a812-000d3a1c6099"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "new_leavebalance",
+              "MetadataId": "669bcdc2-da78-eb11-a812-000d3a9d0055",
+              "AutoRefreshOnChanges": true,
+              "Version": 6,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\LeaveBalance.cs",
+              "Name": "LeaveBalance.cs",
+              "CrmId": "669bcdc2-da78-eb11-a812-000d3a9d0055"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginTypeFile, SS.XrmToolkit.Common",
+              "PluginClassType": 1,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "LeavePostUpdate.cs",
+              "Name": "LeavePostUpdate.cs",
+              "CrmId": "00000000-0000-0000-0000-000000000000"
+            },
+            {
+              "$type": "SS.XrmToolkit.Common.ApplicationObjects.ProxyFile, SS.XrmToolkit.Common",
+              "EntityLogicalName": "new_leaverequests",
+              "MetadataId": "e2edf945-4377-eb11-a812-000d3a1c6099",
+              "AutoRefreshOnChanges": true,
+              "Version": 6,
+              "ProxyClassGenerationOptions": 2,
+              "ProxyClassGenerationMethod": 1,
+              "ProxyClassNamingConvention": 1,
+              "ProxyClassNamingPattern": "{0}",
+              "UseStronglyTypeNameForProxyClassRelatedEntities": true,
+              "ProgrammingLanguage": 1,
+              "RelativeFilePath": "ProxyClasses\\LeaveRequests1.cs",
+              "Name": "LeaveRequests1.cs",
+              "CrmId": "e2edf945-4377-eb11-a812-000d3a1c6099"
+            }
+          ],
+          "ProjectSettings": {
+            "$type": "SS.XrmToolkit.Common.ApplicationObjects.PluginSettings, SS.XrmToolkit.Common",
+            "CopyAttributes": true,
+            "Log": false,
+            "Closed": true,
+            "UseILMerge": false,
+            "ProduceDebugInfo": true,
+            "OverrideCRMReferenceDirectory": false,
+            "CrmReferenceDirectory": "",
+            "ILMergeOuputDirectory": "\\ILMerge",
+            "OverrideTargetFrameworkLocation": false,
+            "TargetFrameworkLocation": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319",
+            "AllowDuplicateTypes": false,
+            "AllowDuplicateResources": false,
+            "ILMergeOutputAssemblyFileName": "\\ILMerge\\",
+            "DuplicateTypes": [],
+            "AssemblyReferences": [],
+            "ReferenceDirectories": [],
+            "PluginAssembly": {
+              "_pluginTypes": [
+                {
+                  "_steps": [
+                    {
+                      "_images": [
+                        {
+                          "LogicalName": "sdkmessageprocessingstepimage",
+                          "Attributes": [
+                            {
+                              "Key": "name",
+                              "Value": "Image"
+                            },
+                            {
+                              "Key": "imagetype",
+                              "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                            },
+                            {
+                              "Key": "messagepropertyname",
+                              "Value": "Target"
+                            },
+                            {
+                              "Key": "entityalias",
+                              "Value": "EntityAlias"
+                            }
+                          ],
+                          "Id": "00000000-0000-0000-0000-000000000000",
+                          "FormattedValues": [],
+                          "RelatedEntities": [],
+                          "KeyAttributes": []
+                        }
+                      ],
+                      "LogicalName": "sdkmessageprocessingstep",
+                      "Id": "00000000-0000-0000-0000-000000000000",
+                      "Attributes": [
+                        {
+                          "Key": "name",
+                          "Value": "Update - Leave Requests - Post-operation"
+                        },
+                        {
+                          "Key": "mode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        },
+                        {
+                          "Key": "rank",
+                          "Value": {"$type":"System.Int32","$value":1}
+                        },
+                        {
+                          "Key": "sdkmessageid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"20bebb1b-ea3e-db11-86a7-000a3a5473e8"},"LogicalName":"sdkmessage","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "stage",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":40}}
+                        },
+                        {
+                          "Key": "asyncautodelete",
+                          "Value": {"$type":"System.Boolean","$value":false}
+                        },
+                        {
+                          "Key": "statuscode",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":1}}
+                        },
+                        {
+                          "Key": "sdkmessagefilterid",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.EntityReference, Microsoft.Xrm.Sdk","Id":{"$type":"System.Guid","$value":"76eb7b53-4377-eb11-a812-000d3a1c6099"},"LogicalName":"sdkmessagefilter","KeyAttributes":[]}
+                        },
+                        {
+                          "Key": "supporteddeployment",
+                          "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                        }
+                      ],
+                      "FormattedValues": [],
+                      "RelatedEntities": [],
+                      "KeyAttributes": []
+                    }
+                  ],
+                  "LogicalName": "plugintype",
+                  "PluginClassType": 1,
+                  "ConfigurationIsSupplied": true,
+                  "Id": "00000000-0000-0000-0000-000000000000",
+                  "Attributes": [
+                    {
+                      "Key": "customizationlevel",
+                      "Value": {"$type":"System.Int32","$value":1}
+                    },
+                    {
+                      "Key": "typename",
+                      "Value": "mycompany.bu.process.plugin.Plugins.LeavePostUpdate"
+                    },
+                    {
+                      "Key": "friendlyname",
+                      "Value": "mycompany.bu.process.plugin.Plugins.LeavePostUpdate"
+                    },
+                    {
+                      "Key": "name",
+                      "Value": "mycompany.bu.process.plugin.Plugins.LeavePostUpdate"
+                    }
+                  ],
+                  "FormattedValues": [],
+                  "RelatedEntities": [],
+                  "KeyAttributes": []
+                }
+              ],
+              "LogicalName": "pluginassembly",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "isolationmode",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":2}}
+                },
+                {
+                  "Key": "sourcetype",
+                  "Value": {"$type":"Microsoft.Xrm.Sdk.OptionSetValue, Microsoft.Xrm.Sdk","Value":{"$type":"System.Int32","$value":0}}
+                },
+                {
+                  "Key": "customizationlevel",
+                  "Value": {"$type":"System.Int32","$value":1}
+                }
+              ],
+              "FormattedValues": [],
+              "RelatedEntities": [],
+              "KeyAttributes": []
+            }
+          }
+        }
+      ],
+      "OrganizationName": "e43b8fbc2cfd4d2b8508a3031d0c33d1",
+      "OrganizationDisplayName": "self (default)",
+      "UserFriendlyName": "https://org6fa3eff6.crm.dynamics.com/",
+      "SelectedSolution": {
+        "UniqueName": "LeaveModule",
+        "Id": "80ad5ffd-4277-eb11-a812-000d3a1c6099",
+        "LogicalName": "solution",
+        "Name": "Leave Module"
+      },
+      "OrganizationPreferences": {
+        "JavaScriptsPath": "\\Web",
+        "TypeScriptsPath": "\\Web",
+        "ImagesPath": "\\Web",
+        "WebFilesPath": "\\Web",
+        "CSSPath": "\\Web",
+        "XslPath": "\\Web",
+        "XmlPath": "\\Web",
+        "SilverlightPath": "\\Xap",
+        "JavaScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "TypeScriptIntellisenseSubDirectoryPath": "\\IntellisenseFiles",
+        "SitemapPath": "\\Sitemap",
+        "ChartsPath": "\\Charts",
+        "ViewPath": "\\Views",
+        "ProxyClassesPath": "\\ProxyClasses",
+        "ProxyEnumClassesPath": "\\Enums",
+        "EmailTemplatesPath": "\\EmailTemplates",
+        "ProcessesPath": "\\Processes",
+        "EntityMetadataPath": "\\EntityMetadata",
+        "PluginConfigurationsPath": "\\PluginConfigurations",
+        "BaseProxyClassRelativePath": "\\",
+        "CustomAssemblyConfigPath": "\\AssemblyConfig",
+        "JavaScriptMinification": 1,
+        "CSSMinification": 1,
+        "AutoRefreshIntellisenseFilesOnMetadataChanges": true,
+        "ResourcesPath": "\\Web",
+        "ServiceContextName": "CrmServiceContext",
+        "EnumsFileName": "OptionSetEnums",
+        "BaseProxyClassFileName": "BaseProxyClass",
+        "AutoRefreshProxyClassesOnMetadataChanges": true,
+        "PluginPath": "",
+        "WorkflowPath": "",
+        "ProxyClassGenerationOptions": 4,
+        "ProxyClassGenerationMethod": 1,
+        "ProxyClassNamingConvention": 1,
+        "ProxyClassNamingPattern": "{0}",
+        "UseStronglyTypeNameForProxyClassRelatedEntities": true
+      }
+    }
+  ]
+}

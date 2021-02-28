@@ -1,0 +1,10 @@
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\obj\Debug\mycompany.bu.process.plugin.Plugins.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\bin\Debug\mycompany.bu.process.plugin.Plugins.dll
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\bin\Debug\mycompany.bu.process.plugin.Plugins.pdb
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\bin\Debug\microsoft.crm.sdk.proxy.dll
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\bin\Debug\microsoft.xrm.sdk.dll
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\bin\Debug\microsoft.xrm.sdk.workflow.dll
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\bin\Debug\SS.Crm.Linq.dll
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\obj\Debug\mycompany.bu.process.plugin.Plugins.csproj.CopyComplete
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\obj\Debug\mycompany.bu.process.plugin.Plugins.dll
+C:\Users\admin\source\repos\mycompany.bu.process.plugin\mycompany.bu.process.plugin.Plugins\obj\Debug\mycompany.bu.process.plugin.Plugins.pdb
